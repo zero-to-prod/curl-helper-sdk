@@ -40,6 +40,23 @@ This will add the package to your project’s dependencies and create an autoloa
 
 ## Usage
 
+### parseHeaders
+Parse curl headers:
+
+```php
+use Zerotoprod\CurlHelperSdk\CurlHelperSdk;
+
+$CurlHandle = curl_init('https://google.com');
+curl_setopt_array($CurlHandle, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_HEADER => true,
+]);
+$response = curl_exec($CurlHandle);
+$header_size = curl_getinfo($CurlHandle, CURLINFO_HEADER_SIZE);
+curl_close($CurlHandle);
+
+$headers = CurlHelperSdk::parseHeaders($curl_response, $header_size)
+```
 
 
 ## Contributing
