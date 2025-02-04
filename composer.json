@@ -33,7 +33,8 @@
   ],
   "require": {
     "php": ">=8.1",
-    "zero-to-prod/data-model": "^81.9"
+    "zero-to-prod/data-model": "^81.9",
+    "zero-to-prod/curl-helper": "^1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "*",
