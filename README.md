@@ -4,6 +4,7 @@
 
 [![Repo](https://img.shields.io/badge/github-gray?logo=github)](https://github.com/zero-to-prod/curl-helper-sdk)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zero-to-prod/curl-helper-sdk/test.yml?label=test)](https://github.com/zero-to-prod/curl-helper-sdk/actions)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zero-to-prod/curl-helper-sdk/backwards_compatibility.yml?label=backwards_compatibility)](https://github.com/zero-to-prod/curl-helper-sdk/actions)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/zero-to-prod/curl-helper-sdk?color=blue)](https://packagist.org/packages/zero-to-prod/curl-helper-sdk/stats)
 [![php](https://img.shields.io/packagist/php-v/zero-to-prod/curl-helper-sdk.svg?color=purple)](https://packagist.org/packages/zero-to-prod/curl-helper-sdk/stats)
 [![Packagist Version](https://img.shields.io/packagist/v/zero-to-prod/curl-helper-sdk?color=f28d1a)](https://packagist.org/packages/zero-to-prod/curl-helper-sdk)
